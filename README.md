@@ -10,10 +10,12 @@
 
 ## 🌟 1. GIỚI THIỆU TỔNG QUAN DỰ ÁN & WEB DASHBOARD
 
-Dự án này phát triển một hệ thống **Web Dashboard tình báo kinh tế vĩ mô tương tác thời gian thực** (Modern Dark-Mode Glassmorphism), đóng vai trò nền tảng trực quan hóa toàn bộ chuỗi số liệu từ:
+Dự án này phát triển một hệ thống **Web Dashboard tình báo kinh tế vĩ mô tương tác thời gian thực**, lấy cảm hứng từ giao diện báo cáo chuyên gia kinh tế vĩ mô (FTU Macro Executive Dashboard - Deep Navy `#002060`, Clean Crisp Light Theme `#f1f5f9` & Card trắng sắc nét):
 1. **Khung mở đầu điều hành (Executive Briefing - Section 1):** Figure 1 đến Figure 4.
 2. **Khung phân tích chuyên sâu thực nghiệm (Analytical Deep-Dive - Sections 2 & 3):** Figure 7 đến Figure 12 cùng 3 bảng ma trận dự án, bộ đệm đối ngoại và kịch bản tăng trưởng.
 3. **Bộ đối chiếu 12 hình gốc từ Báo cáo World Bank (May 2026)** và ma trận kiểm toán 47 hình toàn diện.
+4. **Công cụ Tìm kiếm Trực tiếp (Live Interactive Search & Filter Tool):** Cho phép tra cứu nhanh tức thì mọi Figure và Table theo từ khóa, số hình, chủ đề (Bất động sản, Đầu tư công, Kiều hối...) với các tag pill bấm nhanh.
+5. **Chế độ hiển thị đa nền (Dual Theme Engine):** Mặc định Light Theme chuyên nghiệp, sang trọng, hỗ trợ chuyển đổi linh hoạt Light / Dark Theme chỉ với 1 click.
 
 ---
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi" class="h-full bg-slate-950 text-slate-100">
+<html lang="vi" class="h-full light-theme">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,37 +32,208 @@
       color: #ffffff;
       border-color: #6366f1;
     }
+  
+    /* ========================================================================= */
+    /* LIGHT THEME STYLING (MATCHING MACROECONOMICS FTU RESEARCH DASHBOARD)       */
+    /* ========================================================================= */
+    body.light-theme {
+      background-color: #f1f5f9 !important;
+      color: #1e293b !important;
+    }
+    body.light-theme .glass-card {
+      background: #ffffff !important;
+      backdrop-filter: none !important;
+      border: 1px solid #e2e8f0 !important;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04), 0 1px 2px -1px rgba(0, 0, 0, 0.04) !important;
+    }
+    body.light-theme .glass-card:hover {
+      border-color: #cbd5e1 !important;
+      box-shadow: 0 10px 25px -5px rgba(0, 32, 96, 0.08) !important;
+    }
+    body.light-theme .bg-slate-900\/80,
+    body.light-theme .bg-slate-900\/90,
+    body.light-theme .bg-slate-900,
+    body.light-theme .bg-slate-950,
+    body.light-theme .bg-slate-950\/60 {
+      background: #f8fafc !important;
+      border-color: #e2e8f0 !important;
+      color: #1e293b !important;
+    }
+    body.light-theme .text-white {
+      color: #0f172a !important;
+    }
+    body.light-theme .text-slate-200 {
+      color: #1e293b !important;
+    }
+    body.light-theme .text-slate-300 {
+      color: #334155 !important;
+    }
+    body.light-theme .text-slate-400 {
+      color: #64748b !important;
+    }
+    body.light-theme .text-slate-500 {
+      color: #64748b !important;
+    }
+    body.light-theme .border-slate-800,
+    body.light-theme .border-slate-800\/50,
+    body.light-theme .border-slate-800\/60,
+    body.light-theme .border-slate-800\/80 {
+      border-color: #e2e8f0 !important;
+    }
+    body.light-theme table thead tr {
+      background: #f1f5f9 !important;
+      color: #334155 !important;
+      border-color: #cbd5e1 !important;
+    }
+    body.light-theme table tbody tr {
+      border-color: #e2e8f0 !important;
+      color: #1e293b !important;
+    }
+    body.light-theme table tbody tr:hover {
+      background: #f8fafc !important;
+    }
+    body.light-theme .tab-btn {
+      background: #ffffff !important;
+      border-color: #cbd5e1 !important;
+      color: #334155 !important;
+    }
+    body.light-theme .tab-btn:hover {
+      background: #f8fafc !important;
+      color: #0f172a !important;
+    }
+    body.light-theme .tab-btn.active {
+      background: #002060 !important;
+      border-color: #002060 !important;
+      color: #ffffff !important;
+      box-shadow: 0 2px 6px rgba(0, 32, 96, 0.25) !important;
+    }
+    /* Banner Alerts */
+    body.light-theme .bg-gradient-to-r.from-emerald-950\/60 {
+      background: #ecfdf5 !important;
+      border-color: #a7f3d0 !important;
+      color: #064e3b !important;
+    }
+    body.light-theme .bg-gradient-to-r.from-cyan-950\/60 {
+      background: #ecfeff !important;
+      border-color: #a5f3fc !important;
+      color: #164e63 !important;
+    }
+    body.light-theme .bg-gradient-to-r.from-indigo-950\/60 {
+      background: #eef2ff !important;
+      border-color: #c7d2fe !important;
+      color: #1e1b4b !important;
+    }
+    body.light-theme .bg-gradient-to-r.from-blue-950\/60 {
+      background: #eff6ff !important;
+      border-color: #bfdbfe !important;
+      color: #1e3a8a !important;
+    }
+    body.light-theme .bg-gradient-to-r.from-purple-950\/60 {
+      background: #faf5ff !important;
+      border-color: #e9d5ff !important;
+      color: #581c87 !important;
+    }
+    body.light-theme .bg-gradient-to-r.from-orange-950\/70,
+    body.light-theme .bg-gradient-to-r.from-orange-950\/60 {
+      background: #fff7ed !important;
+      border-color: #fed7aa !important;
+      color: #7c2d12 !important;
+    }
+    body.light-theme .bg-gradient-to-r.from-pink-950\/70,
+    body.light-theme .bg-gradient-to-r.from-pink-950\/60 {
+      background: #fdf2f8 !important;
+      border-color: #fbcfe8 !important;
+      color: #831843 !important;
+    }
+    body.light-theme .bg-gradient-to-r.from-red-950\/70,
+    body.light-theme .bg-gradient-to-r.from-red-950\/60 {
+      background: #fef2f2 !important;
+      border-color: #fecaca !important;
+      color: #7f1d1d !important;
+    }
+    body.light-theme .border-2.border-emerald-500\/40,
+    body.light-theme .border-2.border-emerald-500\/30 {
+      border-color: #6ee7b7 !important;
+    }
+    body.light-theme .border-2.border-cyan-500\/40,
+    body.light-theme .border-2.border-cyan-500\/30 {
+      border-color: #67e8f9 !important;
+    }
+    body.light-theme .border-2.border-indigo-500\/40,
+    body.light-theme .border-2.border-indigo-500\/30 {
+      border-color: #a5b4fc !important;
+    }
+    body.light-theme .border-2.border-purple-500\/40,
+    body.light-theme .border-2.border-purple-500\/30 {
+      border-color: #d8b4fe !important;
+    }
+    body.light-theme .border-2.border-orange-500\/40,
+    body.light-theme .border-2.border-orange-500\/30 {
+      border-color: #fdba74 !important;
+    }
+    body.light-theme .border-2.border-blue-500\/40,
+    body.light-theme .border-2.border-blue-500\/30 {
+      border-color: #93c5fd !important;
+    }
+    body.light-theme .border-2.border-pink-500\/40,
+    body.light-theme .border-2.border-pink-500\/30 {
+      border-color: #f9a8d4 !important;
+    }
+    body.light-theme .border-2.border-red-500\/40,
+    body.light-theme .border-2.border-red-500\/30 {
+      border-color: #fca5a5 !important;
+    }
+    body.light-theme .border-2.border-amber-500\/40,
+    body.light-theme .border-2.border-amber-500\/30 {
+      border-color: #fde68a !important;
+    }
+    /* Search highlight animation */
+    .search-highlight {
+      animation: pulse-border 1.5s ease-in-out infinite alternate;
+    }
+    @keyframes pulse-border {
+      from { outline: 2px solid rgba(0, 32, 96, 0.2); }
+      to { outline: 3px solid rgba(0, 32, 96, 0.8); }
+    }
+
   </style>
 </head>
-<body class="min-h-full flex flex-col bg-[#070a13] text-slate-100 antialiased selection:bg-indigo-500 selection:text-white">
+<body class="min-h-full flex flex-col bg-[#f1f5f9] text-slate-800 antialiased light-theme selection:bg-blue-600 selection:text-white transition-colors duration-200">
 
   <!-- Sticky Header -->
-  <header class="sticky top-0 z-50 bg-[#060910]/95 backdrop-blur-md border-b border-slate-800 px-6 py-4 flex flex-wrap items-center justify-between gap-4 shadow-2xl">
+  <!-- Deep Navy Executive Header (Inspired by FTU Macroeconomics Dashboard) -->
+  <header class="sticky top-0 z-50 bg-[#002060] text-white px-6 py-4 flex flex-wrap items-center justify-between gap-4 shadow-xl border-b border-blue-900">
     <div class="flex items-center gap-3">
-      <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-indigo-600 via-purple-600 to-pink-500 flex items-center justify-center shadow-lg shadow-indigo-500/25">
+      <div class="w-11 h-11 rounded-xl bg-white/15 border border-white/20 flex items-center justify-center shadow-md">
         <i data-lucide="line-chart" class="w-6 h-6 text-white"></i>
       </div>
       <div>
-        <h1 class="text-lg font-bold bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent flex items-center gap-2">
-          Vietnam Macro Intelligence Dashboard
-          <span class="text-xs px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 font-semibold font-mono">14 Figures (Inc. Fig 3 & Fig 4)</span>
+        <div class="text-[10px] uppercase font-mono tracking-widest text-blue-200">FTU RESEARCH LAB &bull; VIETNAM MACROECONOMIC INTELLIGENCE</div>
+        <h1 class="text-lg font-extrabold text-white flex items-center gap-2">
+          EXPLORATIONS IN MACROECONOMICS (9M 2026)
+          <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-semibold font-mono">22 Figures + 3 Tables</span>
         </h1>
-        <p class="text-xs text-slate-400">Báo cáo World Bank (May 2026) + Chuyên Khảo Draft BCKT (Figure 1 – 4 & Figure 7 – 12 + Kịch Bản Vĩ Mô 2026)</p>
+        <p class="text-xs text-blue-100/80">Báo cáo World Bank (May 2026) &bull; Chuyên Khảo Thực Nghiệm Draft BCKT &bull; Dữ Liệu 9M 2026</p>
       </div>
     </div>
 
-    <div class="flex items-center gap-3 text-xs flex-wrap">
-      <div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-medium">
+    <div class="flex items-center gap-2.5 text-xs flex-wrap">
+      <!-- Theme Toggle Button -->
+      <button onclick="toggleTheme()" id="themeToggleBtn" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-xs font-semibold font-mono bg-white text-slate-800 border-slate-200 hover:bg-slate-100 transition shadow-sm">
+        <i data-lucide="sun" class="w-3.5 h-3.5 text-amber-500"></i>
+        <span>Theme: Sáng</span>
+      </button>
+
+      <div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 font-medium">
         <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
         KYC Verified: 2 Auditors
       </div>
-      <div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 font-medium">
+      <div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/10 border border-white/20 text-blue-100 font-medium">
         <i data-lucide="users" class="w-3.5 h-3.5"></i>
         Multi-Agent System
       </div>
-      <a href="https://github.com/petrodollar666-2/BCKTVN" target="_blank" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-mono transition">
-        <i data-lucide="github" class="w-3.5 h-3.5"></i>
-        <span>GitHub Repo</span>
+      <a href="https://github.com/petrodollar666-2/BCKTVN" target="_blank" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/15 hover:bg-white/25 border border-white/20 text-white font-mono font-medium transition">
+        <i data-lucide="github" class="w-3.5 h-3.5"></i> Repo GitHub
       </a>
     </div>
   </header>
@@ -1725,6 +1896,149 @@
   <script>
     const data = {
       draft: {"Figure7": {"panelA": {"periods": ["2022", "2023", "2024", "9M 2025", "9M 2026"], "construction_contrib": [0.48, 0.42, 0.45, 0.61, 0.74], "real_estate_contrib": [0.35, -0.06, 0.1, 0.2, 0.22], "total_gdp_growth": [8.54, 4.98, 7.04, 7.84, 8.38]}, "panelB": {"periods": ["9M 2023", "9M 2024", "9M 2025", "9M 2026"], "public_inv_growth": [43.5, -11.75, 18.09, 12.12], "property_credit_growth": [6.8, 8.2, 11.5, 14.2], "construction_va_growth": [6.7, 7.3, 9.8, 10.6]}}, "Figure8": {"sectors": ["B\u1ea5t \u0110\u1ed9ng S\u1ea3n (D\u1ef1 \u00e1n & Mua nh\u00e0)", "C\u00f4ng Nghi\u1ec7p & Ch\u1ebf Bi\u1ebfn", "X\u00e2y D\u1ef1ng", "Th\u01b0\u01a1ng M\u1ea1i & D\u1ecbch V\u1ee5", "N\u00f4ng, L\u00e2m, Th\u1ee7y S\u1ea3n", "L\u0129nh V\u1ef1c \u01afu Ti\u00ean (SXKD)"], "credit_growth_yoy": [14.2, 12.8, 11.5, 13.6, 8.4, 12.2], "credit_share_pct": [22.35, 16.2, 10.2, 65.43, 8.2, 24.95], "sme_note": {"sme_credit_share": 19.8, "sme_access_index": 57.8, "avg_lending_rate": 8.4}}, "Figure9": {"months": ["2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08"], "fdi_growth": [14.2, 13.8, 15.6, 16.2, 18.4, 17.9, 18.2, 19.1, 17.8, 18.5, 19.2, 20.4, 18.1, 16.8, 19.4, 18.9, 18.6, 19.5, 20.1, 20.8], "domestic_growth": [6.8, 5.9, 7.4, 8.1, 9.2, 8.8, 9.4, 10.1, 9.5, 9.8, 10.4, 11.2, 9.1, 7.8, 10.2, 10.5, 9.8, 11.4, 11.8, 12.1], "annual_periods": ["2019", "2020", "2021", "2022", "2023", "2024", "9M 2025", "9M 2026"], "annual_fdi_share": [68.8, 72.3, 73.1, 74.4, 73.4, 72.8, 78.5, 80.5], "annual_domestic_share": [31.2, 27.7, 26.9, 25.6, 26.6, 27.2, 21.5, 19.5]}, "Figure10": {"categories": ["Nguy\u00ean ph\u1ee5 li\u1ec7u / Trung gian (Intermediate Inputs)", "T\u01b0 li\u1ec7u s\u1ea3n xu\u1ea5t / M\u00e1y m\u00f3c (Capital Goods)", "X\u0103ng d\u1ea7u & N\u0103ng l\u01b0\u1ee3ng (Fuels & Energy)", "H\u00e0ng ti\u00eau d\u00f9ng (Consumer Goods)"], "growth_yoy_9m26": [16.8, 18.4, 9.5, 6.2], "contribution_ppt": [10.2, 4.3, 1.1, 0.8], "share_total_imports": [62.4, 25.8, 6.8, 5.0]}, "Figure11": {"quarters": ["2020-Q1", "2020-Q3", "2021-Q1", "2021-Q3", "2022-Q1", "2022-Q3", "2023-Q1", "2023-Q3", "2024-Q1", "2024-Q3", "2025-Q1", "2025-Q3", "2026-Q1", "2026-Q2", "2026-Q3"], "output_gap_pct": [-1.2, -3.8, -2.1, -4.5, 0.8, 2.4, -2.2, -1.1, 0.4, 1.2, 0.8, 1.4, 1.6, 1.9, 2.1], "months": ["2024-01", "2024-04", "2024-07", "2024-10", "2025-01", "2025-04", "2025-07", "2025-10", "2026-01", "2026-04", "2026-07", "2026-09"], "headline_cpi": [3.37, 4.44, 4.36, 2.89, 3.25, 3.44, 3.52, 3.4, 3.35, 5.5, 4.45, 4.12], "core_cpi": [2.84, 2.68, 2.61, 2.68, 2.85, 3.05, 3.1, 3.12, 3.08, 3.4, 3.32, 3.15], "energy_shock_month": "2026-04"}, "Figure12": {"months": ["2025-01", "2025-03", "2025-05", "2025-07", "2025-09", "2025-11", "2026-01", "2026-03", "2026-04", "2026-05", "2026-07", "2026-09"], "brent_oil_usd": [79.2, 72.8, 65.4, 70.1, 68.5, 64.2, 65.8, 74.5, 93.8, 84.2, 76.5, 72.4], "domestic_ron95_vnd": [21400, 20600, 19800, 20300, 20100, 19400, 19600, 21200, 26800, 24500, 22800, 21900], "transport_cpi_yoy": [1.8, 0.9, -1.2, 0.4, -0.2, -1.8, -1.2, 2.6, 12.8, 8.4, 4.1, 2.3], "drewry_wci_freight": [3400, 2950, 2700, 3100, 2800, 2600, 2750, 3200, 4800, 4100, 3500, 3150]}, "Tables": {"table1_projects": [{"project": "Cao t\u1ed1c B\u1eafc - Nam ph\u00eda \u0110\u00f4ng (G\u0110 2)", "sector": "Giao th\u00f4ng v\u1eadn t\u1ea3i", "scale": "146,990 t\u1ef7 VND", "status_2026": "Thi c\u00f4ng cao \u0111i\u1ec3m 12/12 d\u1ef1 \u00e1n", "disbursement_2026": "48,500 t\u1ef7 VND", "relevance": "K\u00e9o m\u1ea1nh ng\u00e0nh x\u00e2y d\u1ef1ng & v\u1eadt li\u1ec7u"}, {"project": "C\u1ea3ng h\u00e0ng kh\u00f4ng qu\u1ed1c t\u1ebf Long Th\u00e0nh (G\u0110 1)", "sector": "H\u00e0ng kh\u00f4ng / H\u1ea1 t\u1ea7ng", "scale": "109,111 t\u1ef7 VND", "status_2026": "Ho\u00e0n thi\u1ec7n nh\u00e0 ga & \u0111\u01b0\u1eddng b\u0103ng", "disbursement_2026": "22,400 t\u1ef7 VND", "relevance": "T\u1ea1o c\u00fa h\u00edch logistics li\u00ean v\u00f9ng"}, {"project": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 3 TP.HCM & V\u00e0nh \u0111ai 4 H\u00e0 N\u1ed9i", "sector": "\u0110\u00f4 th\u1ecb / K\u1ebft n\u1ed1i v\u00f9ng", "scale": "161,000 t\u1ef7 VND", "status_2026": "T\u0103ng t\u1ed1c gi\u1ea3i ph\u00f3ng m\u1eb7t b\u1eb1ng & c\u1ea7u c\u1ea1n", "disbursement_2026": "31,200 t\u1ef7 VND", "relevance": "M\u1edf r\u1ed9ng kh\u00f4ng gian kinh t\u1ebf v\u1ec7 tinh"}, {"project": "T\u1ed5 h\u1ee3p B\u00e1n d\u1eabn & Data Center (FDI & T\u01b0 nh\u00e2n)", "sector": "C\u00f4ng ngh\u1ec7 cao", "scale": "68,000 t\u1ef7 VND", "status_2026": "L\u1eafp \u0111\u1eb7t ph\u00f2ng s\u1ea1ch & h\u1ea1 t\u1ea7ng \u0111i\u1ec7n", "disbursement_2026": "18,600 t\u1ef7 VND", "relevance": "M\u1edf r\u1ed9ng n\u0103ng l\u1ef1c s\u1ea3n xu\u1ea5t m\u1edbi"}], "table2_buffers": [{"indicator": "C\u00e1n c\u00e2n th\u01b0\u01a1ng m\u1ea1i h\u00e0ng h\u00f3a (Trade Balance)", "latest": "+21.42 t\u1ef7 USD", "comparison": "T\u01b0\u01a1ng \u0111\u01b0\u01a1ng c\u00f9ng k\u1ef3 2025 (+21.6 t\u1ef7 USD)"}, {"indicator": "C\u00e1n c\u00e2n v\u00e3ng lai (Current Account)", "latest": "+3.2% GDP (\u01af\u1edbc 9M)", "comparison": "Th\u1eb7ng d\u01b0 v\u1eefng ch\u1eafc, gi\u1ea3m ph\u1ee5 thu\u1ed9c vay n\u1ee3"}, {"indicator": "D\u00f2ng ki\u1ec1u h\u1ed1i (Remittances)", "latest": "10.79 t\u1ef7 USD (8M)", "comparison": "+6.7% YoY, h\u1ed7 tr\u1ee3 thanh kho\u1ea3n ngo\u1ea1i t\u1ec7"}, {"indicator": "D\u1ef1 tr\u1eef ngo\u1ea1i h\u1ed1i (FX Reserves)", "latest": "~92.5 t\u1ef7 USD", "comparison": "\u0110\u1ea1t x\u1ea5p x\u1ec9 3.1 - 3.2 th\u00e1ng nh\u1eadp kh\u1ea9u"}, {"indicator": "T\u1ef7 gi\u00e1 VND/USD", "latest": "25,120 VND/USD", "comparison": "M\u1ea5t gi\u00e1 ~2.8% YTD, n\u1eb1m trong bi\u00ean \u0111\u1ed9 ki\u1ec3m so\u00e1t NHNN"}], "table4_scenarios": [{"variable": "\u0110\u1ea7u t\u01b0 c\u00f4ng", "baseline": "Duy tr\u00ec t\u1ed1c \u0111\u1ed9 gi\u1ea3i ng\u00e2n >85% KH", "upside": "B\u1ee9t ph\u00e1 >95% KH n\u0103m", "downside": "Ch\u1eadm gi\u1ea3i ng\u00e2n Q4 do th\u1ee7 t\u1ee5c"}, {"variable": "\u0110\u1ea7u t\u01b0 t\u01b0 nh\u00e2n", "baseline": "Ph\u1ee5c h\u1ed3i \u1ed5n \u0111\u1ecbnh 8 - 9%", "upside": "Lan t\u1ecfa m\u1ea1nh ra kh\u1ed1i SME", "downside": "Th\u1eadn tr\u1ecdng do chi ph\u00ed v\u1ed1n"}, {"variable": "Ti\u00eau d\u00f9ng n\u1ed9i \u0111\u1ecba", "baseline": "T\u0103ng tr\u01b0\u1edfng b\u00e1n l\u1ebb th\u1ef1c 9 - 10%", "upside": "Du l\u1ecbch & ki\u1ec1u h\u1ed1i b\u00f9ng n\u1ed5", "downside": "\u00c1p l\u1ef1c chi ph\u00ed sinh ho\u1ea1t"}, {"variable": "V\u1ed1n FDI", "baseline": "Gi\u1ea3i ng\u00e2n \u0111\u1ea1t >25 t\u1ef7 USD c\u1ea3 n\u0103m", "upside": "L\u00e0n s\u00f3ng FDI b\u00e1n d\u1eabn gia t\u0103ng", "downside": "Tr\u00ec ho\u00e3n do thu\u1ebf t\u1ed1i thi\u1ec3u to\u00e0n c\u1ea7u"}, {"variable": "Xu\u1ea5t kh\u1ea9u", "baseline": "T\u0103ng tr\u01b0\u1edfng c\u1ea3 n\u0103m 14 - 15%", "upside": "\u0110\u01a1n h\u00e0ng \u0111i\u1ec7n t\u1eed US/EU t\u0103ng m\u1ea1nh", "downside": "Suy tho\u00e1i \u0111\u1ed1i t\u00e1c th\u01b0\u01a1ng m\u1ea1i l\u1edbn"}, {"variable": "Gi\u00e1 d\u1ea7u & C\u01b0\u1edbc v\u1eadn t\u1ea3i", "baseline": "Brent dao \u0111\u1ed9ng 70 - 75 USD/th\u00f9ng", "upside": "Gi\u00e1 d\u1ea7u gi\u1ea3m d\u01b0\u1edbi 68 USD", "downside": "Xung \u0111\u1ed9t Trung \u0110\u00f4ng \u0111\u1ea9y d\u1ea7u >95 USD"}, {"variable": "L\u1ea1m ph\u00e1t CPI", "baseline": "B\u00ecnh qu\u00e2n ki\u1ec3m so\u00e1t 3.8 - 4.2%", "upside": "Ki\u1ec3m so\u00e1t quanh 3.5%", "downside": "V\u01b0\u1ee3t tr\u1ea7n 4.5% do n\u0103ng l\u01b0\u1ee3ng"}, {"variable": "T\u00edn d\u1ee5ng & T\u1ef7 gi\u00e1", "baseline": "T\u00edn d\u1ee5ng \u0111\u1ea1t 15-16%, VND -3%", "upside": "D\u1ec5 th\u1edf h\u01a1n, FED h\u1ea1 l\u00e3i su\u1ea5t s\u00e2u", "downside": "\u00c1p l\u1ef1c t\u1ef7 gi\u00e1 k\u00e9o l\u00e3i su\u1ea5t t\u0103ng"}]}},"fig1": {"panelA": {"labels": ["2022-Q1", "2022-Q2", "2022-Q3", "2022-Q4", "2023-Q1", "2023-Q2", "2023-Q3", "2023-Q4", "2024-Q1", "2024-Q2", "2024-Q3", "2024-Q4", "2025-Q1", "2025-Q2", "2025-Q3", "2025-Q4", "2026-Q1", "2026-Q2", "2026-Q3"], "real_gdp_growth": [5.42, 8.56, 14.38, 6.26, 3.45, 4.15, 5.23, 6.76, 5.91, 7.19, 7.39, 7.51, 7.05, 8.16, 8.25, 8.46, 7.94, 8.39, 8.48], "historical_avg": 7.0}, "panelB": {"periods": ["9M 2024", "9M 2025", "9M 2026"], "agriculture": [0.4, 0.39, 0.38], "manufacturing_industry": [2.37, 2.51, 3.12], "construction": [0.45, 0.61, 0.74], "services": [3.15, 3.8, 3.63], "net_taxes": [0.49, 0.54, 0.51], "total_gdp_growth": [6.86, 7.84, 8.38]}}, "fig2": {"panelA": {"labels": ["2022-Q1", "2022-Q2", "2022-Q3", "2022-Q4", "2023-Q1", "2023-Q2", "2023-Q3", "2023-Q4", "2024-Q1", "2024-Q2", "2024-Q3", "2024-Q4", "2025-Q1", "2025-Q2", "2025-Q3", "2025-Q4", "2026-Q1", "2026-Q2", "2026-Q3"], "manufacturing": [8.27, 11.94, 12.83, 3.97, -0.85, 0.67, 5.04, 8.33, 7.16, 9.69, 10.86, 10.23, 9.31, 10.22, 9.61, 10.56, 9.86, 10.56, 10.42], "construction": [4.69, 6.74, 10.15, 6.84, 6.07, 7.18, 6.89, 7.92, 7.21, 7.42, 7.28, 7.39, 8.87, 10.24, 10.41, 10.35, 8.51, 10.28, 10.85], "real_estate": [2.66, 7.11, 12.63, 5.93, -1.2, -1.22, -0.48, 3.15, 1.76, 2.42, 3.91, 4.78, 4.37, 4.41, 5.26, 4.48, 4.64, 4.69, 4.82]}, "panelB": {"labels": ["2022-Q1", "2022-Q2", "2022-Q3", "2022-Q4", "2023-Q1", "2023-Q2", "2023-Q3", "2023-Q4", "2024-Q1", "2024-Q2", "2024-Q3", "2024-Q4", "2025-Q1", "2025-Q2", "2025-Q3", "2025-Q4", "2026-Q1", "2026-Q2", "2026-Q3"], "wholesale_retail": [4.62, 7.18, 13.91, 8.44, 8.16, 7.91, 8.52, 8.94, 7.32, 7.74, 8.21, 8.54, 8.92, 9.45, 9.18, 9.62, 9.72, 9.62, 9.78], "transport_storage": [7.76, 9.63, 29.13, 10.09, 8.03, 11.16, 11.03, 8.96, 10.46, 12.73, 9.88, 10.02, 10.35, 10.97, 11.81, 10.83, 9.03, 11.19, 10.5], "accommodation_food": [-3.22, 25.12, 171.13, 37.52, 24.02, 10.54, 10.62, 8.77, 8.72, 11.12, 9.01, 10.28, 10.22, 9.67, 10.16, 10.01, 7.77, 8.36, 8.9]}}, "fig8": {"years": ["2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025 (Ước tính WB)", "2026 (Dự báo WB)"], "gdp_growth": [6.94, 7.46, 7.36, 2.87, 2.55, 8.54, 4.98, 7.04, 8.0, 6.8], "type": ["Thực tế", "Thực tế", "Thực tế", "Thực tế", "Thực tế", "Thực tế", "Thực tế", "Thực tế", "Ước tính WB", "Dự báo WB"]}, "fig9": {"years": ["2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"], "household_cons": [58.0, 57.08, 56.83, 55.97, 55.52, 54.68, 54.02, 53.56], "gov_cons": [10.13, 9.75, 9.58, 9.48, 9.59, 8.82, 8.81, 8.84], "capital_formation": [32.31, 32.02, 31.98, 31.92, 32.9, 32.34, 31.67, 30.58]}, "fig10": {"months": ["2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08"], "investment_trillion_vnd": [115.4, 98.2, 132.5, 128.7, 135.2, 154.6, 142.1, 148.9, 158.4, 162.8, 175.4, 192.1, 126.8, 108.5, 147.2, 142.6, 151.3, 172.5, 158.9, 166.4], "growth_yoy": [6.76, 6.48, 6.8, 7.08, 7.48, 7.44, 7.44, 7.96, 7.96, 8.32, 8.76, 8.44, 8.92, 9.0, 9.48, 9.44, 9.92, 9.8, 10.16, 10.16], "bci_score": [51.2, 51.8, 52.5, 53.1, 52.8, 53.6, 54.2, 54.0, 54.8, 55.3, 56.1, 56.8, 55.2, 55.8, 56.5, 57.1, 57.4, 58.2, 58.5, 59.0]}, "fig11": {"years": ["2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"], "exports_pct_gdp": [81.76, 84.42, 85.16, 84.38, 93.85, 93.42, 86.74, 90.17], "imports_pct_gdp": [79.22, 80.24, 79.55, 78.86, 92.83, 89.73, 78.26, 83.72], "net_trade_pct_gdp": [2.54, 4.18, 5.61, 5.52, 1.02, 3.69, 8.48, 6.45]}, "fig14": {"years": ["2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"], "services": [42.58, 42.17, 42.47, 41.83, 41.26, 41.14, 42.28, 42.35], "industry": [35.39, 36.54, 36.8, 36.74, 37.39, 38.48, 37.59, 37.52], "agriculture": [12.93, 12.31, 11.78, 12.66, 12.6, 11.88, 11.87, 12.03]}, "fig20": {"months": ["2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08"], "registered_mil_usd": [2360, 1920, 2850, 3120, 2780, 4210, 2690, 3050, 3420, 2980, 3820, 5400, 2510, 2140, 3120, 3350, 2940, 4480, 2860, 3210], "disbursed_mil_usd": [1480, 1320, 1830, 1650, 1970, 2490, 1860, 2040, 2180, 2010, 2120, 2250, 1590, 1410, 1960, 1780, 2110, 2680, 2010, 2210], "growth_yoy": [7.5, 7.65, 7.8, 7.95, 8.1, 8.25, 8.4, 8.55, 8.7, 8.85, 9.0, 9.15, 7.43, 6.82, 7.1, 7.88, 7.11, 7.63, 8.06, 8.33]}, "fig21": {"countries": ["Singapore", "Trung Quốc", "Hàn Quốc", "Các đối tác khác", "Nhật Bản", "Hồng Kông (TQ)", "Malaysia", "Đài Loan", "Thái Lan", "Thụy Điển", "British Virgin Islands"], "capital_billion_usd": [9.39, 5.7, 5.29, 4.3, 3.73, 3.13, 2.06, 1.72, 1.15, 1.02, 0.91], "share_pct": [24.4, 14.8, 13.8, 11.2, 9.7, 8.2, 5.4, 4.5, 3.0, 2.7, 2.4]}, "fig22": {"months": ["2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08"], "fdi_export_mil_usd": [23624.299085, 22720.642807, 27432.270974, 25790.263083, 30986.54212, 30884.274816, 33341.208663000005, 34222.288169, 34014.832681, 33450.891887, 98241.68070300003, 34345.090334, 33676.627462, 26654.253808, 37441.055104, 36549.747011, 37878.256693, 40783.392399, 42823.296514, 44295.914191], "domestic_export_mil_usd": [9534.618511999994, 8388.677661000002, 11077.567436999998, 11655.178675, 8608.910308999999, 8640.188740000001, 8946.426544999995, 9164.062087999999, 8655.478254999995, 8598.319927999997, 332767.85225699993, 9704.946928999998, 9626.126316000009, 6435.780224000002, 8994.669350000004, 9436.487518000002, 9051.089272999998, 10003.854476, 10272.178531999998, 10498.850069999993], "fdi_share_pct": [71.25, 73.03, 71.23, 68.87, 78.26, 78.14, 78.84, 78.88, 79.72, 79.55, 22.79, 77.97, 77.77, 80.55, 80.63, 79.48, 80.71, 80.3, 80.65, 80.84]}, "fig32": {"years": ["2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"], "cpi_inflation_yoy": [3.52, 3.54, 2.8, 3.22, 1.83, 3.16, 3.25, 3.62], "cpi_index_2010_base": [153.63, 159.07, 163.52, 168.78, 171.88, 177.31, 183.07, 189.7]}, "fig35": {"months": ["2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08"], "growth_yoy": [14.12, 14.25, 14.38, 14.52, 14.65, 14.8, 14.92, 15.05, 15.12, 15.18, 15.15, 15.08, 14.63, 14.51, 14.27, 13.82, 13.27, 12.17, 11.53, 10.96], "growth_ytd": [0.77, 1.6, 3.33, 4.81, 6.28, 8.46, 9.49, 10.58, 12.05, 13.14, 14.23, 15.08, 0.39, 1.11, 2.62, 3.68, 4.62, 5.74, 6.13, 6.63], "target_pct": [15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0], "balance_trillion_vnd": [15.72, 15.85, 16.12, 16.35, 16.58, 16.92, 17.08, 17.25, 17.48, 17.65, 17.82, 17.95, 18.02, 18.15, 18.42, 18.61, 18.78, 18.98, 19.05, 19.14]}, "figb21": {"months": ["2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08"], "real_estate_pct": [21.4, 21.45, 21.5, 21.55, 21.6, 21.65, 21.7, 21.75, 21.8, 21.85, 21.9, 21.95, 22.0, 22.05, 22.1, 22.15, 22.2, 22.25, 22.3, 22.35], "industry_construction_pct": [26.2, 26.3, 26.4, 26.5, 26.2, 26.3, 26.4, 26.5, 26.2, 26.3, 26.4, 26.5, 26.2, 26.3, 26.4, 26.5, 26.2, 26.3, 26.4, 26.5], "trade_services_pct": [65.35, 65.27, 65.19, 65.11, 65.43, 65.35, 65.27, 65.19, 65.51, 65.43, 65.35, 65.27, 65.59, 65.51, 65.43, 65.35, 65.67, 65.59, 65.51, 65.43], "priority_sectors_pct": [24.8, 24.95, 25.1, 24.8, 24.95, 25.1, 24.8, 24.95, 25.1, 24.8, 24.95, 25.1, 24.8, 24.95, 25.1, 24.8, 24.95, 25.1, 24.8, 24.95]}, "fig48": {"months": ["2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08"], "monthly_disbursement_trillion_vnd": [25.1, 21.8, 38.6, 35.4, 42.1, 55.8, 48.3, 52.6, 58.9, 62.4, 71.2, 83.5, 28.4, 24.5, 43.1, 39.8, 46.7, 61.2, 54.3, 58.7], "cumulative_disbursement_trillion_vnd": [25.1, 46.9, 85.5, 120.9, 163.0, 218.8, 267.1, 319.7, 378.6, 441.0, 512.2, 595.7, 28.4, 52.9, 96.0, 135.8, 182.5, 243.7, 298.0, 356.7], "disbursement_rate_pct": [3.71, 6.92, 12.62, 17.85, 24.07, 32.3, 39.44, 47.2, 55.9, 65.11, 75.62, 87.95, 3.94, 7.35, 13.33, 18.86, 25.35, 33.85, 41.39, 49.54]}, "fig3": {"panelA": {"periods": ["9M 2024", "9M 2025", "9M 2026"], "state_growth": [4.1, 9.2, 12.4], "non_state_growth": [7.1, 7.8, 8.2], "fdi_growth": [10.7, 9.8, 10.2], "total_growth": [6.8, 8.5, 9.6]}, "panelB": {"years": ["9M 2023", "9M 2024", "9M 2025", "9M 2026"], "disbursement_trillion_vnd": [363.3, 320.6, 378.6, 424.5], "disbursement_rate_plan_pct": [51.38, 47.29, 55.9, 58.96], "yoy_growth_pct": [43.5, -11.75, 18.09, 12.12]}}, "fig4": {"panelA": {"labels": ["2023-01", "2023-03", "2023-05", "2023-07", "2023-09", "2023-11", "2024-01", "2024-03", "2024-05", "2024-07", "2024-09", "2024-11", "2025-01", "2025-03", "2025-05", "2025-07", "2025-09", "2025-11", "2026-01", "2026-03", "2026-05", "2026-07", "2026-09"], "headline": [4.89, 3.35, 2.43, 2.06, 3.66, 3.45, 3.37, 3.97, 4.44, 4.36, 2.63, 2.85, 3.25, 3.12, 3.44, 3.52, 3.65, 3.4, 3.35, 4.7, 5.5, 4.45, 4.12], "core": [5.21, 4.88, 4.54, 4.11, 3.84, 3.79, 2.84, 2.76, 2.68, 2.61, 2.54, 2.71, 2.85, 2.92, 3.05, 3.1, 3.18, 3.12, 3.08, 3.25, 3.4, 3.32, 3.15]}, "panelB": {"labels": ["2024-01", "2024-04", "2024-07", "2024-10", "2025-01", "2025-04", "2025-07", "2025-10", "2026-01", "2026-04", "2026-07", "2026-09"], "credit": [12.1, 12.8, 13.5, 14.2, 14.2, 14.6, 14.9, 15.2, 15.1, 15.3, 16.1, 16.4], "deposit": [9.8, 9.2, 8.9, 8.5, 9.1, 8.8, 9.4, 9.6, 9.2, 8.7, 9.5, 9.8]}, "panelC": {"labels": ["2024-Q1", "2024-Q2", "2024-Q3", "2024-Q4", "2025-Q1", "2025-Q2", "2025-Q3", "2025-Q4", "2026-Q1", "2026-Q2", "2026-Q3"], "exports": [16.8, 14.2, 15.6, 15.9, 13.8, 14.5, 16.2, 17.5, 18.2, 16.9, 17.4], "imports": [13.9, 16.5, 17.2, 18.0, 15.2, 16.8, 18.9, 19.8, 22.4, 20.1, 19.5]}, "panelD": {"labels": ["9M 2022", "9M 2023", "9M 2024", "9M 2025", "9M 2026"], "registered": [18.75, 20.21, 24.78, 28.5, 44.12], "disbursed": [15.43, 15.91, 17.3, 18.7, 19.45]}, "remittances": {"latest_month": "Tháng 8/2026", "monthly_val_mil_usd": 1400.0, "cumulative_8m_mil_usd": 10790.0, "hcm_share_pct": 59.0, "growth_yoy_pct": 6.7, "gdp_ratio_pct": 3.5, "quarterly_trend": [{"period": "2025-Q1", "val_mil_usd": 3900, "growth_yoy": 4.9}, {"period": "2025-Q2", "val_mil_usd": 3990, "growth_yoy": 5.2}, {"period": "2025-Q3", "val_mil_usd": 4130, "growth_yoy": 5.5}, {"period": "2025-Q4", "val_mil_usd": 4380, "growth_yoy": 5.8}, {"period": "2026-Q1", "val_mil_usd": 3960, "growth_yoy": 6.1}, {"period": "2026-Q2", "val_mil_usd": 4060, "growth_yoy": 6.4}, {"period": "2026-7&8M", "val_mil_usd": 2770, "growth_yoy": 6.65}]}}};
+
+    
+    // =========================================================================
+    // THEME TOGGLE & INTERACTIVE LIVE SEARCH LOGIC
+    // =========================================================================
+
+    // 1. Theme Toggle Function
+    function toggleTheme() {
+      const body = document.body;
+      const htmlEl = document.documentElement;
+      const isLight = body.classList.contains('light-theme');
+      const btn = document.getElementById('themeToggleBtn');
+
+      if (isLight) {
+        body.classList.remove('light-theme');
+        htmlEl.classList.remove('light-theme');
+        body.classList.add('dark-theme', 'bg-[#070a13]', 'text-slate-100');
+        if (btn) btn.innerHTML = '<i data-lucide="moon" class="w-3.5 h-3.5 text-blue-400"></i><span>Theme: Tối</span>';
+      } else {
+        body.classList.add('light-theme');
+        htmlEl.classList.add('light-theme');
+        body.classList.remove('dark-theme', 'bg-[#070a13]', 'text-slate-100');
+        if (btn) btn.innerHTML = '<i data-lucide="sun" class="w-3.5 h-3.5 text-amber-500"></i><span>Theme: Sáng</span>';
+      }
+      lucide.createIcons();
+    }
+
+    // 2. Remove Vietnamese Diacritics for smart flexible search
+    function removeVietnameseTones(str) {
+      if (!str) return '';
+      str = str.toLowerCase();
+      str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
+      str = str.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g, "e");
+      str = str.replace(/ì|í|ị|ỉ|ĩ/g, "i");
+      str = str.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g, "o");
+      str = str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g, "u");
+      str = str.replace(/ỳ|ý|ỵ|ỷ|ỹ/g, "y");
+      str = str.replace(/đ/g, "d");
+      return str;
+    }
+
+    // 3. Live Search Handler
+    let activeSearchQuery = '';
+
+    function handleSearch(query) {
+      activeSearchQuery = (query || '').trim();
+      const clearIcon = document.getElementById('searchClearIcon');
+      const clearBtn = document.getElementById('clearSearchBtn');
+      const badgeText = document.getElementById('searchResultText');
+      const noResultsBox = document.getElementById('searchNoResults');
+
+      if (activeSearchQuery.length > 0) {
+        if (clearIcon) clearIcon.classList.remove('hidden');
+        if (clearBtn) clearBtn.classList.remove('hidden');
+      } else {
+        if (clearIcon) clearIcon.classList.add('hidden');
+        if (clearBtn) clearBtn.classList.add('hidden');
+      }
+
+      if (!activeSearchQuery) {
+        // Restore tab state
+        const activeTabBtn = document.querySelector('.tab-btn.active');
+        const activeTab = activeTabBtn ? activeTabBtn.id.replace('tab-', '') : 'exec';
+        switchTab(activeTab);
+        if (badgeText) badgeText.innerText = 'Hiển thị đầy đủ 22 hình & 3 bảng';
+        if (noResultsBox) noResultsBox.classList.add('hidden');
+        document.querySelectorAll('.search-highlight').forEach(el => el.classList.remove('search-highlight'));
+        return;
+      }
+
+      const qNorm = removeVietnameseTones(activeSearchQuery);
+      const cards = document.querySelectorAll('.chart-card');
+      const execSections = document.querySelectorAll('.section-exec');
+      const draftSections = document.querySelectorAll('.section-draft');
+      const auditSec = document.getElementById('audit-section');
+
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const text = removeVietnameseTones(card.innerText || '');
+        const id = removeVietnameseTones(card.id || '');
+        const isMatch = text.includes(qNorm) || id.includes(qNorm);
+
+        if (isMatch) {
+          card.style.display = card.classList.contains('section-exec') || card.classList.contains('section-draft') ? 'block' : 'flex';
+          card.classList.add('search-highlight');
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+          card.classList.remove('search-highlight');
+        }
+      });
+
+      // Handle audit section search
+      if (auditSec) {
+        const auditText = removeVietnameseTones(auditSec.innerText || '');
+        if (auditText.includes(qNorm)) {
+          auditSec.style.display = 'block';
+          visibleCount++;
+        } else {
+          auditSec.style.display = 'none';
+        }
+      }
+
+      // Update Result Counter
+      if (badgeText) {
+        badgeText.innerText = `Tìm thấy ${visibleCount} mục phù hợp với "${activeSearchQuery}"`;
+      }
+
+      // Show empty state if 0 results
+      if (noResultsBox) {
+        if (visibleCount === 0) {
+          noResultsBox.classList.remove('hidden');
+        } else {
+          noResultsBox.classList.add('hidden');
+        }
+      }
+    }
+
+    // 4. Quick Tag Filter Click
+    function applySearchTag(tag) {
+      const input = document.getElementById('dashboardSearchInput');
+      if (input) input.value = tag;
+
+      document.querySelectorAll('.search-tag-pill').forEach(btn => {
+        if ((!tag && btn.innerText === 'Tất Cả') || (tag && btn.innerText.includes(tag))) {
+          btn.classList.add('active', 'bg-[#002060]', 'text-white', 'border-blue-800');
+          btn.classList.remove('bg-slate-100', 'text-slate-700', 'border-slate-200');
+        } else {
+          btn.classList.remove('active', 'bg-[#002060]', 'text-white', 'border-blue-800');
+          btn.classList.add('bg-slate-100', 'text-slate-700', 'border-slate-200');
+        }
+      });
+
+      handleSearch(tag);
+    }
+
+    // 5. Clear Search
+    function clearSearch() {
+      const input = document.getElementById('dashboardSearchInput');
+      if (input) input.value = '';
+      applySearchTag('');
+    }
 
     // Helper to format currency/numbers
     const fmt = (num) => new Intl.NumberFormat('vi-VN').format(num);
